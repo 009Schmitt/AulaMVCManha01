@@ -54,6 +54,8 @@ namespace AulaMVCManha01.View
                 cbPlacas.Items.Add(item);
             }
             //
+
+
             cbVagasLivres.Text = "";
             cbPlacas.Text = "";
             txtHoraEntrada.Clear();
