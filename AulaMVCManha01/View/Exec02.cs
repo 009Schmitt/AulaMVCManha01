@@ -76,5 +76,23 @@ namespace AulaMVCManha01.View
             AtualizaTudo();
 
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            double valorFinal = Controller2.AtualizaSaida(cbPlacas.Text, txtHoraSaida.Text, rbSim.Checked);
+            if(valorFinal == -1)
+            {
+                MessageBox.Show("Placa nao encontrada");
+            }
+            else if (valorFinal == -2)
+            {
+                MessageBox.Show("Preencha todos os campos!!!");
+            }
+            else
+            {
+                MessageBox.Show($"Valor Final a Pagar : {valorFinal:c}");
+            }
+            AtualizaTudo();
+        }
     }
 }

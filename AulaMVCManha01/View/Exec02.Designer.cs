@@ -146,7 +146,7 @@ namespace AulaMVCManha01.View
             this.btnEntrar.Location = new System.Drawing.Point(12, 554);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(213, 64);
-            this.btnEntrar.TabIndex = 7;
+            this.btnEntrar.TabIndex = 8;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = true;
             this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
@@ -200,13 +200,14 @@ namespace AulaMVCManha01.View
             // 
             // btnSair
             // 
-            this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.Location = new System.Drawing.Point(350, 554);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(234, 64);
             this.btnSair.TabIndex = 13;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // btnEncerrar
             // 
@@ -223,7 +224,7 @@ namespace AulaMVCManha01.View
             this.txtPlaca.Location = new System.Drawing.Point(12, 501);
             this.txtPlaca.Name = "txtPlaca";
             this.txtPlaca.Size = new System.Drawing.Size(221, 47);
-            this.txtPlaca.TabIndex = 16;
+            this.txtPlaca.TabIndex = 7;
             // 
             // label6
             // 

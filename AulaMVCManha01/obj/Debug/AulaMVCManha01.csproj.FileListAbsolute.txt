@@ -9,3 +9,14 @@ C:\Users\victor.schmitt\source\repos\AulaMVCManha01\obj\Debug\AulaMVCManha01.csp
 C:\Users\victor.schmitt\source\repos\AulaMVCManha01\obj\Debug\AulaMVCManha01.csproj.CoreCompileInputs.cache
 C:\Users\victor.schmitt\source\repos\AulaMVCManha01\obj\Debug\AulaMVCManha01.exe
 C:\Users\victor.schmitt\source\repos\AulaMVCManha01\obj\Debug\AulaMVCManha01.pdb
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCManha01\AulaMVCManha01\bin\Debug\AulaMVCManha01.exe.config
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCManha01\AulaMVCManha01\bin\Debug\AulaMVCManha01.exe
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCManha01\AulaMVCManha01\bin\Debug\AulaMVCManha01.pdb
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCManha01\AulaMVCManha01\obj\Debug\AulaMVCManha01.csprojAssemblyReference.cache
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCManha01\AulaMVCManha01\obj\Debug\AulaMVCManha01.Properties.Resources.resources
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCManha01\AulaMVCManha01\obj\Debug\AulaMVCManha01.View.Exec02.resources
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCManha01\AulaMVCManha01\obj\Debug\AulaMVCManha01.Form1.resources
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCManha01\AulaMVCManha01\obj\Debug\AulaMVCManha01.csproj.GenerateResource.cache
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCManha01\AulaMVCManha01\obj\Debug\AulaMVCManha01.csproj.CoreCompileInputs.cache
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCManha01\AulaMVCManha01\obj\Debug\AulaMVCManha01.exe
+C:\Users\victor.schmitt\Documents\GitHub\AulaMVCManha01\AulaMVCManha01\obj\Debug\AulaMVCManha01.pdb
