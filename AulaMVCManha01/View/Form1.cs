@@ -30,6 +30,11 @@ namespace AulaMVCManha01
                 new Exec02().Show();
                 this.Hide();
             }
+            else if (rbTeste.Checked)
+            {
+                new TesteDB().Show();
+                this.Hide();
+            }
         }
     }
 }
