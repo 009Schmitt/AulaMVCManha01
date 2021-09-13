@@ -20,35 +20,73 @@ namespace AulaMVCManha01.View
 
         private void btnExecuta_Click(object sender, EventArgs e)
         {
-            if(ControllerTeste.AdicionaPessoa(txtNome.Text,txtCpf.Text,txtRg.Text))
+            if (!string.IsNullOrEmpty(txtSalario.Text))
             {
-                MessageBox.Show("Elemento inserido");
+                ControllerTeste.AdicionaFuncionario(txtNome.Text, txtCpf.Text, txtRg.Text, txtSalario.Text);
+            }
+            else if (cbVip.Checked)
+            {
+
             }
             else
             {
-                MessageBox.Show("Tem que inserir os valores ai, ta ligado?");
+                if (ControllerTeste.AdicionaPessoa(txtNome.Text, txtCpf.Text, txtRg.Text))
+                {
+                    MessageBox.Show("Elemento inserido");
+                }
+                else
+                {
+                    MessageBox.Show("Tem que inserir os valores ai, ta ligado?");
+                }
             }
+
             txtNome.Clear();
             txtCpf.Clear();
             txtRg.Clear();
+            txtSalario.Clear();
+            cbVip.Checked = false;
         }
 
         private void btnMostra_Click(object sender, EventArgs e)
         {
-            List<string[]> lista = ControllerTeste.SelecionaPessoas();
-
-            string mostraTexto = "";
-            foreach (var item in lista)
+            if (rbP.Checked)
             {
-                string elemento = "";
-                foreach (var item1 in item)
-                {
-                    elemento += (item1 + "  ");
-                }
-                mostraTexto += (elemento + "\n");
-            }
+                List<string[]> lista = ControllerTeste.SelecionaPessoas();
 
-            MessageBox.Show(mostraTexto);
+                string mostraTexto = "";
+                foreach (var item in lista)
+                {
+                    string elemento = "";
+                    foreach (var item1 in item)
+                    {
+                        elemento += (item1 + "  ");
+                    }
+                    mostraTexto += (elemento + "\n");
+                }
+
+                MessageBox.Show(mostraTexto);
+            }
+            else if(rbC.Checked)
+            {
+
+            }
+            else if (rbF.Checked)
+            {
+                List<string[]> lista = ControllerTeste.SelecionaFuncionarios();
+
+                string mostraTexto = "";
+                foreach (var item in lista)
+                {
+                    string elemento = "";
+                    foreach (var item1 in item)
+                    {
+                        elemento += (item1 + "  ");
+                    }
+                    mostraTexto += (elemento + "\n");
+                }
+
+                MessageBox.Show(mostraTexto);
+            }       
 
         }
 

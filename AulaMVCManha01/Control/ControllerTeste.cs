@@ -24,9 +24,30 @@ namespace AulaMVCManha01.Control
             }
         }
 
+        public static bool AdicionaFuncionario(string nome, string cpf, string rg,string salario)
+        {
+            if (!string.IsNullOrEmpty(nome) &&
+                !string.IsNullOrEmpty(cpf) &&
+                !string.IsNullOrEmpty(rg) &&
+                !string.IsNullOrEmpty(salario))
+            {
+                return DBTeste.AdicionaFuncionario(nome, cpf, rg, salario);
+
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         public static List<string[]> SelecionaPessoas()
         {
             return DBTeste.SelecionaPessoas();
+        }
+
+        public static List<string[]> SelecionaFuncionarios()
+        {
+            return DBTeste.SelecionaFuncionarios();
         }
     }
 }
